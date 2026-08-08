@@ -107,7 +107,7 @@ function App() {
 
             <div className="image-frame">
               <img
-                src="/images/henna-main.jpg"
+                src={`${import.meta.env.BASE_URL}images/henna-main.jpg`}
                 alt="حناء جذور الطبيعية"
               />
             </div>
@@ -154,7 +154,7 @@ function App() {
               <div className="photo-bg"></div>
 
               <img
-                src="/images/henna-main.jpg"
+                src={`${import.meta.env.BASE_URL}images/henna-main.jpg`}
                 alt="منتج حناء جذور"
               />
 
